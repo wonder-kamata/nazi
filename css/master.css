@@ -1,0 +1,27 @@
+h1{
+  font-size: 100px;
+  text-align: center;
+  margin-left: 18vw;
+  z-index: 3;
+  position: absolute;
+}
+.nsdap_logo{
+  width: 700px;
+  height: 87,5px;
+}
+body{
+  background-image: url(img/home.jpeg);
+}
+.home_jpeg{
+  z-index: 1;
+  /* margin: auto; */
+  align-items: center;
+  /* position: fixed;
+  vertical-align: left;
+  line-height: 5.0em; */
+  width: 1300px;
+}
+.div1{
+  position: relative;
+  font-size: 0;
+}
