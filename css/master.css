@@ -1,27 +1,62 @@
 h1{
-  font-size: 100px;
+  font-size: 9vw;
   text-align: center;
-  margin-left: 18vw;
+  margin-left: 8vw;
+  margin-top: 20vw;
   z-index: 3;
   position: absolute;
+  margin-bottom: 5000vw;
 }
 .nsdap_logo{
   width: 700px;
   height: 87,5px;
 }
+
 body{
   background-image: url(img/home.jpeg);
-}
-.home_jpeg{
-  z-index: 1;
-  /* margin: auto; */
-  align-items: center;
-  /* position: fixed;
+  margin: 0;
+  padding: 0;
+	display: block;
   vertical-align: left;
-  line-height: 5.0em; */
-  width: 1300px;
+  overflow: scroll;
+  overflow-x: hidden;
+  min-width: 1100px;
 }
+
+.home_jpeg{
+  width: 100vw;
+}
+
 .div1{
   position: relative;
   font-size: 0;
+  z-index: 1;
+  align-items: center;
+  vertical-align: left;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+main{
+  position: absolute;
+}
+
+footer{
+  margin-top: 150vw;
+}
+
+.hitler{
+  text-align: right;
+}
+
+.hitler h2{
+  font-size: 4.5vw;
+  margin: 0;
+  margin-right: 15vw;
+}
+
+.hitler p{
+  text-align: left;
+  font-size: 2vw;
+  margin-left: 45.5vw;
 }
