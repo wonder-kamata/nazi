@@ -62,6 +62,7 @@ footer{
 .hitler p{
   text-align: left;
   font-size: 2vw;
+    font-family: 'Shippori Mincho', serif;
   /* margin-left: 45.5vw; */
 }
 
@@ -76,11 +77,19 @@ footer{
   font-family: 'Noto Serif JP', serif;
 }
 
+/* .hitler_text a{ */
+  text-align: left;
+}
+
 .hitler_text{
   padding-top: 1vw;
   display: inline;
   padding-right: 6vw;
   font-family: 'Shippori Mincho', serif;
+}
+
+.hitler_text p{
+  font-size: 2vw;
 }
 
 footer p{
@@ -96,7 +105,7 @@ footer p{
 }
 
 .himmler h2{
-  font-size: 4.3vw;
+  font-size: 4.4vw;
   margin: 0;
   text-align: left;
   font-family: 'Noto Serif JP', serif;
@@ -110,8 +119,8 @@ footer p{
   /* margin-left: 45.5vw; */
 }
 .himmler img{
-  height: 840px;
-  width: 650px;
+  height: 250%;
+  width: 250%;
   padding: 3vw;
   padding-top: 0vw;
 }
@@ -124,5 +133,27 @@ footer p{
   padding-top: 1vw;
   display: inline;
   padding-left: 5vw;
+  font-family: 'Shippori Mincho', serif;
+  font-size: 2vw;
+}
+
+.himmler_text p{
+    font-size: 2vw;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.1s 0s ease;
+  cursor: pointer;
+}
+
+a:hover{
+  text-decoration: none;
+  color: gray;
+}
+.topeople{
+  text-align: left;
+  font-size: 2.4vw;
   font-family: 'Shippori Mincho', serif;
 }
