@@ -64,6 +64,7 @@ footer{
   font-size: 2vw;
     font-family: 'Shippori Mincho', serif;
   /* margin-left: 45.5vw; */
+  padding-right: 2vw;
 }
 
 .hitler img{
@@ -156,4 +157,18 @@ a:hover{
   text-align: left;
   font-size: 2.4vw;
   font-family: 'Shippori Mincho', serif;
+}
+
+.thumbnail_politiker{
+  position: relative;
+  font-size: 0;
+  z-index: 1;
+  align-items: center;
+  vertical-align: left;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.thumbnail_politiker h1{
+  padding-left: 4.5vw;
 }
